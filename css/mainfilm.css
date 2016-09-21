@@ -1,0 +1,114 @@
+.tabs{
+	display:inline-block;
+}
+.tabs > div{
+	padding-top:10px;
+}
+.tabs ul{
+	margin:0px;
+	padding:0px;
+}
+.tabs ul:after{
+	content:"";
+	display:block;
+	clear:both;
+	height:5px;
+	background:#e62948;
+}
+.tabs ul li{
+	margin:0px;
+	padding:0px;
+	cursor:pointer;
+	display:block;
+	float:left;
+	padding:10px 15px;
+	background:#0e0e0e;
+	color:#fff;
+}
+.tabs ul li.active, .tabs ul li.active:hover{
+	background:#e62948;
+	color:#fff;
+}
+.tabs ul li:hover{
+	background:#68777e;
+	transition:  .3s ease-in-out;
+}
+
+.blog_button{
+	margin-top:5px;
+	float:right;
+}
+
+.popup{
+	text-decoration: none;
+	color:#fff;
+}
+.popup:hover{
+	text-decoration: none;
+	color:#fff;
+}
+
+.error-btn {
+	color: #FFF;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 10px 10px;
+	text-align: center;
+	font-family: oswald;
+	font-size: 14px;
+	background: #e62948;
+	margin: 10px 0;
+	border: none;
+	font-family: 'Oswald', sans-serif;
+	border-radius: 4px;
+} // кнопка сообщить об ошибке
+
+//ФОрма
+.mfp-content{
+	padding: 60px 41px;
+	background-color: #86aecc;
+	max-width:320px;
+	margin: auto;
+	position: relative;
+} // форма попап кнопки сообщить об ошибке
+
+form .form_err {
+	padding: 50px 20px;
+	background-color: #86aecc;
+	max-width:320px;
+	margin: auto;
+	position: relative;
+}
+
+form .form_in {
+	width: 103%;
+	margin-bottom:10px;
+}
+
+
+form label {
+	color:#000;
+
+}
+
+form select {
+	margin-bottom:10px;
+	border-radius: 3px;
+}
+
+form input {
+	border-radius:3px;
+}
+
+form .error-btn {
+	margin-left: 70px;
+}
+
+//Форма
+
+//описание к фильму
+h5.film_descr {
+ font-size: 16px;
+ color:#fff;
+ font-family: 'Roboto',sans-serif;
+}
