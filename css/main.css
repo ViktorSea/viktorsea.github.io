@@ -34,6 +34,7 @@ body {
 	font-family: 'Roboto', sans-serif;
 	color: #fff;
 	background: #000;
+	overflow-x:hidden;
 }
 a{
 	outline:none !important;
@@ -54,7 +55,7 @@ ul, li {
 	padding: 0;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 h1 {
 	font-size: 30px;
@@ -128,7 +129,7 @@ ul.navbar-nav {
 	font-size: 54px;
 	line-height: 60px;
 	color: #fff;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 .logo span {
 	color: #e62948;
@@ -137,7 +138,7 @@ ul.navbar-nav {
 	display: block;
 	font-size: 14px;
 	color: #fff;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-transform: uppercase;
 }
 .navbar-default {
@@ -187,7 +188,7 @@ ul.navbar-nav {
 	padding-right: 0px;
 }
 .navbar-nav > li > a {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	padding: 0;
 	outline: none !important;
 	overflow: hidden;
@@ -198,7 +199,7 @@ ul.navbar-nav {
 }
 .navbar-default .dropdown-menu > li > a {
 	text-transform: uppercase;
-	font-family: oswald;
+	font-family: 'Roboto', sans-serif;
 	font-size: 16px;
 	color: #fff;
 	font-weight: 300;
@@ -300,7 +301,7 @@ ul.navbar-nav {
 	-o-transition: all .9s ease-in-out;
 	transition: all .9s ease-in-out;
 	padding-left: 10px;
-	font-family: 'oswald';
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 }
 .nav-search:hover input {
@@ -336,7 +337,7 @@ ul.navbar-nav {
 .yamm-content h2 {
 	font-size: 16px;
 	text-transform: uppercase;
-	font-family: oswald;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	margin: 0;
 	padding-left: 15px;
@@ -345,7 +346,7 @@ ul.navbar-nav {
 .yamm-content h4, .yamm-content a {
 	text-decoration: none;
 	font-size: 16px;
-	font-family: oswald;
+	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	color: #e62948;
 	text-transform: uppercase;
@@ -896,7 +897,7 @@ a.next-album {
 }
 .breadcrumb h5 {
 	font-size: 16px;
-	font-family: oswald;
+	font-family: 'Roboto', sans-serif;
 	color: #e62948;
 	text-transform: uppercase;
 	padding-bottom: 15px;
@@ -994,7 +995,7 @@ a.next-album {
    8-Latest News,events,videos
    ========================*/
 .events_showcase {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 .events_showcase {
 	margin-top: -45px;
@@ -1125,6 +1126,7 @@ a.next-album {
 	margin-bottom: 15px;
 }
 .event-feed {
+	margin-left: -30px;
 	position: relative;
 	padding-bottom: 20px;
 	padding-top: 20px;
@@ -1156,7 +1158,7 @@ a.next-album {
 	right: 0;
 }
 .event-feed .date {
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	float: left;
 }
 .event-feed .date .day {
@@ -1172,15 +1174,17 @@ a.next-album {
 	padding-left: 50px;
 }
 .event-feed h5 {
+	padding-bottom:5px;
 	color: #e62948;
 	font-size: 18px;
+	font-weight:bold;
 	line-height: 20px;
 	margin: 0;
 	text-transform: uppercase;
 }
 .event-feed p {
 	color: #ffffff;
-	font-size: 13px;
+	font-size: 15px;
 	line-height: 14px;
 	text-transform: uppercase;
 }
@@ -1196,7 +1200,7 @@ a.next-album {
 	position: relative;
 	margin-top: 10px;
 	margin-left: 20px;
-	font-family: 'Oswald', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 .event-feed a.btn:hover, .latest-post a.btn:hover {
 	background: #e62948;
@@ -1210,7 +1214,7 @@ a.next-album {
 	width: 100%;
 	height: auto;
 	display: block;
-	font-family: oswald;
+	font-family: 'Roboto', sans-serif;
 	font-size: 18px;
 	color: #FFF;
 	text-decoration: none;
@@ -1309,7 +1313,7 @@ a.next-album {
 	color: #8b8b8b;
 	text-decoration: none;
 	font-size: 13px;
-	font-family: oswald;
+	font-family: 'Roboto', sans-serif;
 	font-weight: bold;
 	border-radius: 2px;
 }

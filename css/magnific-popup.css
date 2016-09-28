@@ -39,13 +39,21 @@
 .mfp-align-top .mfp-container:before {
   display: none; }
 
-.mfp-content {
+/*.mfp-content {
   position: relative;
   display: inline-block;
   vertical-align: middle;
   margin: 0 auto;
   text-align: left;
-  z-index: 1045; }
+  z-index: 1045; } */
+  .mfp-content{
+  position: relative;
+  padding: 60px 40px;
+  background-color: #86aecc;
+  max-width:320px;
+  margin: auto;
+  display:inline-block;
+  }
 
 .mfp-inline-holder .mfp-content,
 .mfp-ajax-holder .mfp-content {
