@@ -2127,6 +2127,28 @@ blockquote{
 	float: left;
 	margin-right: 30px;
 }
+
+
+
+/* =========================
+  13.1 er404
+   ========================*/
+
+
+   .err{
+   	 display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+    
+   
+    color: #fff; /* Цвет текста */
+   }
+   .erre{
+   	
+   }
+
 /* =========================
    13-Sidebar
    ========================*/
